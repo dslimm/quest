@@ -1,0 +1,99 @@
+.card1 {
+    animation: card1 1.5s infinite;
+}
+@keyframes card1 { 
+    0% {
+        transform: rotate(0deg); 
+    }
+    100% {
+        transform: rotate(360deg); 
+    }
+}
+.card2 {
+    animation: card2 2.5s infinite;
+}
+@keyframes card2 { 
+    0% {
+        transform: rotate(0deg); 
+    }
+    100% {
+        transform: rotate(-360deg); 
+    }
+}
+.card3 {
+    animation: card3 2s infinite;
+}
+@keyframes card3 { 
+    0% {
+        transform: rotate(0deg); 
+    }
+    100% {
+        transform: rotate(360deg); 
+    }
+}
+.card4 {
+    animation: card4 2s infinite;
+}
+@keyframes card4 { 
+    0% {
+        transform: rotate(0deg); 
+    }
+    100% {
+        transform: rotate(360deg); 
+    }
+}
+.card5 {
+    animation: card5 1.5s infinite;
+}
+@keyframes card5 { 
+    0% {
+        transform: rotate(0deg); 
+    }
+    100% {
+        transform: rotate(-360deg); 
+    }
+}
+.card6 {
+    animation: card6 2.5s infinite;
+}
+@keyframes card6 { 
+    0% {
+        transform: rotate(0deg); 
+    }
+    100% {
+        transform: rotate(360deg); 
+    }
+}
+.card7 {
+    animation: card7 1.5s infinite;
+}
+@keyframes card7 { 
+    0% {
+        transform: rotate(0deg); 
+    }
+    100% {
+        transform: rotate(-360deg); 
+    }
+}
+.card8 {
+    animation: card8 2.5s infinite;
+}
+@keyframes card8 { 
+    0% {
+        transform: rotate(0deg); 
+    }
+    100% {
+        transform: rotate(360deg); 
+    }
+}
+.card9 {
+    animation: card9 2s infinite;
+}
+@keyframes card9 { 
+    0% {
+        transform: rotate(0deg); 
+    }
+    100% {
+        transform: rotate(-360deg); 
+    }
+}
