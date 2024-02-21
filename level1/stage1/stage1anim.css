@@ -1,0 +1,263 @@
+.card1 {
+    animation: card1 1.5s infinite;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.card2 {
+    animation: card2 1.5s infinite;
+    position: absolute;
+    top: 0;
+    right: 37.145%;
+}
+.card3 {
+    animation: card3 1.5s infinite;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.card4 {
+    animation: card4 1.5s infinite;
+    position: absolute;
+    left: 0;
+}
+.card5 {
+    animation: card5 1.5s infinite;
+    position: absolute;
+    right: 0;
+}
+.card6 {
+    animation: card6 1.5s infinite;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.card7 {
+    animation: card7 1.5s infinite;
+    position: absolute;
+    bottom: 0;
+    right: 37.145%;
+}
+.card8 {
+    animation: card8 1.5s infinite;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+@keyframes card1 { 
+    0% {
+        background: url("/quest/level1/stage1/image/cat1.jpg");
+        background-size: cover;
+        transform: rotate(0deg); 
+    }
+    25% { 
+        background: url("/quest/level1/stage1/image/elephant.jpg");
+        background-size: cover;
+        transform: rotate(90deg); 
+    } 
+    50% { 
+        background: url("/quest/level1/stage1/image/fish1.jpg");
+        background-size: cover;
+        transform: rotate(180deg);
+    } 
+    75% { 
+        background: url("/quest/level1/stage1/image/crocodile.jpg");
+        background-size: cover;
+        transform: rotate(270deg); 
+    }
+    100% { 
+        background: url("/quest/level1/stage1/image/cat1.jpg");
+        background-size: cover;
+        transform: rotate(360deg); 
+    }
+}
+@keyframes card2 { 
+    0% {
+        background: url("/quest/level1/stage1/image/jellyfish.jpg");
+        background-size: cover;
+        transform: rotate(0deg); 
+    }
+    25% { 
+        background: url("/quest/level1/stage1/image/snake.jpg");
+        background-size: cover;
+        transform: rotate(90deg); 
+    } 
+    50% { 
+        background: url("/quest/level1/stage1/image/dog1.jpg");
+        background-size: cover;
+        transform: rotate(180deg); 
+    } 
+    75% { 
+        background: url("/quest/level1/stage1/image/wolf.jpg");
+        background-size: cover;
+        transform: rotate(270deg); 
+    }
+    100% {
+        background: url("/quest/level1/stage1/image/jellyfish.jpg");
+        background-size: cover;
+        transform: rotate(360deg); 
+    }
+}
+@keyframes card3 { 
+    0% {
+        background: url("/quest/level1/stage1/image/kangaroo.jpg");
+        background-size: cover;
+        transform: rotate(0deg); 
+    }
+    25% { 
+        background: url("/quest/level1/stage1/image/kitten1.jpg");
+        background-size: cover;
+        transform: rotate(90deg); 
+    } 
+    50% { 
+        background: url("/quest/level1/stage1/image/frog.jpg");
+        background-size: cover;
+        transform: rotate(180deg); 
+    } 
+    75% { 
+        background: url("/quest/level1/stage1/image/bird1.jpg");
+        background-size: cover;
+        transform: rotate(270deg); 
+    }
+    100% {
+        background: url("/quest/level1/stage1/image/kangaroo.jpg");
+        background-size: cover;
+        transform: rotate(360deg); 
+    }
+}
+@keyframes card4 { 
+    0% {
+        background: url("/quest/level1/stage1/image/hamster.jpg");
+        background-size: cover;
+        transform: rotate(0deg); 
+    }
+    25% { 
+        background: url("/quest/level1/stage1/image/bear1.jpg");
+        background-size: cover;
+        transform: rotate(90deg); 
+    } 
+    50% { 
+        background: url("/quest/level1/stage1/image/snake.jpg");
+        background-size: cover;
+        transform: rotate(180deg); 
+    } 
+    75% { 
+        background: url("/quest/level1/stage1/image/horse1.jpg");
+        background-size: cover;
+        transform: rotate(270deg); 
+    }
+    100% {
+        background: url("/quest/level1/stage1/image/hamster.jpg");
+        background-size: cover;
+        transform: rotate(360deg); 
+    }
+}
+@keyframes card5 { 
+    0% {
+        background: url("/quest/level1/stage1/image/horse1.jpg");
+        background-size: cover;
+        transform: rotate(0deg); 
+    }
+    25% { 
+        background: url("/quest/level1/stage1/image/bee.jpg");
+        background-size: cover;
+        transform: rotate(90deg); 
+    } 
+    50% { 
+        background: url("/quest/level1/stage1/image/cat2.jpg");
+        background-size: cover;
+        transform: rotate(180deg); 
+    } 
+    75% { 
+        background: url("/quest/level1/stage1/image/jellyfish.jpg");
+        background-size: cover;
+        transform: rotate(270deg); 
+    }
+    100% {
+        background: url("/quest/level1/stage1/image/horse1.jpg");
+        background-size: cover;
+        transform: rotate(360deg); 
+    }
+}
+@keyframes card6 { 
+    0% {
+        background: url("/quest/level1/stage1/image/elephant.jpg");
+        background-size: cover;
+        transform: rotate(0deg); 
+    }
+    25% { 
+        background: url("/quest/level1/stage1/image/dog1.jpg");
+        background-size: cover;
+        transform: rotate(90deg); 
+    } 
+    50% { 
+        background: url("/quest/level1/stage1/image/kangaroo.jpg");
+        background-size: cover;
+        transform: rotate(180deg); 
+    } 
+    75% { 
+        background: url("/quest/level1/stage1/image/cat1.jpg");
+        background-size: cover;
+        transform: rotate(270deg); 
+    }
+    100% {
+        background: url("/quest/level1/stage1/image/elephant.jpg");
+        background-size: cover;
+        transform: rotate(360deg); 
+    }
+}
+@keyframes card7 { 
+    0% {
+        background: url("/quest/level1/stage1/image/bee.jpg");
+        background-size: cover;
+        transform: rotate(0deg);
+    }
+    25% { 
+        background: url("/quest/level1/stage1/image/hamster.jpg");
+        background-size: cover;
+        transform: rotate(90deg); 
+    } 
+    50% { 
+        background: url("/quest/level1/stage1/image/fox1.jpg");
+        background-size: cover;
+        transform: rotate(180deg); 
+    } 
+    75% { 
+        background: url("/quest/level1/stage1/image/frog.jpg");
+        background-size: cover;
+        transform: rotate(270deg); 
+    }
+    100% {
+        background: url("/quest/level1/stage1/image/bee.jpg");
+        background-size: cover;
+        transform: rotate(360deg); 
+    }
+}
+@keyframes card8 { 
+    0% {
+        background: url("/quest/level1/stage1/image/wolf.jpg");
+        background-size: cover;
+        transform: rotate(0deg); 
+    }
+    25% { 
+        background: url("/quest/level1/stage1/image/crocodile.jpg");
+        background-size: cover;
+        transform: rotate(90deg); 
+    } 
+    50% { 
+        background: url("/quest/level1/stage1/image/bear1.jpg");
+        background-size: cover;
+        transform: rotate(180deg); 
+    } 
+    75% { 
+        background: url("/quest/level1/stage1/image/kitten1.jpg");
+        background-size: cover;
+        transform: rotate(270deg); 
+    }
+    100% {
+        background: url("/quest/level1/stage1/image/wolf.jpg");
+        background-size: cover;
+        transform: rotate(360deg); 
+    }
+}

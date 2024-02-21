@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Угадай слово, нажимая на все буквы</title>
+    <link rel="stylesheet" href="/quest/level1/stage2/stage2.css">
+
+</head>
+<body>
+    <h1>Угадай слово</h1>
+    <h3>Чтобы понять загаданное слово,<br> нажимай на все буквы</h3>
+    <div class="container" ontouchstart="">
+            <div class="cards card0">Я</div>
+            <div class="cards card0">Б</div>
+            <div class="cards card0">Ц</div>
+            <div class="cards card0">Ж</div>
+
+            <div class="cards card0">Ч</div>
+            <div class="cards card0">Ы</div>
+            <div class="cards card0">Щ</div>
+            <div class="cards card0">Е</div>
+
+            <div class="cards card0">В</div>
+            <div class="cards card0">Ъ</div>
+            <div class="cards card0">А</div>
+            <div class="cards card0">З</div>
+
+            <div class="cards card0">Ю</div>
+            <div class="cards card0">Ф</div>
+            <div class="cards card0">Д</div>
+            <div class="cards card0">Э</div>
+    </div>
+<div class="timerCard"></div>
+    <div class="nocard">
+        <input class="inp1" id="pass" placeholder="ввести слово" oninput="speedConverter(this.value)"  onchange="speedConverter(this.value)">
+    </div>
+<script src="stage2.js"></script>
+</body>
+</html>

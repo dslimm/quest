@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Найди пароль между летающих клоунов</title>
+    <link rel="stylesheet" href="/quest/level1/stage3/stage3.css">
+    <link rel="stylesheet" href="/quest/level1/stage3/stage3anim.css">
+    <link rel="stylesheet" href="/quest/level1/stage3/stage3media.css">
+</head>
+<body>
+    <h1>Найди пароль</h1>
+    <h3>Чтобы заметить пароль,<br> уменьшай летающих клоунов</h3>
+    <div class="container" ontouchstart=""><p class="key">206408</p>
+        <div class="str">
+            <div class="cards card1"></div>
+            <div class="cards card2"></div>
+            <div class="cards card3"></div>
+        </div>
+        <div class="str">
+            <div class="cards card4"></div>
+            <div class="cards card5"></div>
+            <div class="cards card6"></div>
+        </div>
+        <div class="str">
+            <div class="cards card7"></div>
+            <div class="cards card8"></div>
+            <div class="cards card9"></div>
+        </div>
+    </div>
+<div class="timerCard"></div>
+    <div class="nocard">
+        <input class="inp1" id="pass" placeholder="ввести пароль" oninput="speedConverter(this.value)"  onchange="speedConverter(this.value)">
+    </div>
+<script src="stage3.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Отгадай загадку, подобрав рифмующееся слово</title>
+    <link rel="stylesheet" href="/quest/level2/stage2/stage2.css">
+</head>
+<body>
+    <h1>Загадка</h1>
+    <h3>Чтобы отгадать загадку,<br> подбери слово в рифму</h3>
+    <div class="container" ontouchstart="">
+        <div class="card0">Будни, будни, выходные.<br><br>
+             Дни и месяцы шальные.<br><br>
+             Первый там стоит январь.<br><br>
+             Значит это - ...
+        </div>
+    </div>       
+    <div class="timerCard"></div>
+    <div class="nocard">
+        <input class="inp1" id="pass" placeholder="ввести слово" oninput="speedConverter(this.value)"  onchange="speedConverter(this.value)">
+    </div>
+<script src="stage2.js"></script>
+</body>
+</html>

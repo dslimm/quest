@@ -1,0 +1,81 @@
+@keyframes card1 { 
+    100% {
+        transform: translate(120%, 120%); 
+    } 
+}
+.card2 {
+    animation: card2 1.5s linear infinite;
+}
+@keyframes card2 { 
+    100% {
+        transform: translate(0, 120%); 
+    } 
+}
+.card3 {
+    animation: card3 2s linear infinite;
+}
+@keyframes card3 { 
+    100% {
+        transform: translate(-120%, 120%); 
+    }
+}
+.card4 {
+    animation: card4 2.5s linear infinite;
+}
+@keyframes card4 { 
+    100% {
+        transform: translate(120%, 0); 
+    }
+}
+.card5 {
+    animation: card5 1.5s linear infinite;
+}
+@keyframes card5 { 
+0% {
+        transform: skew(0deg); 
+    }
+    25% { 
+        transform: skew(35deg, 35deg); 
+    } 
+    50% { 
+        transform: skew(0deg);
+    } 
+    75% { 
+        transform: skew(-35deg, -35deg); 
+    }
+    100% { 
+        transform: skew(0deg); 
+    }
+}
+.card6 {
+    animation: card6 3s linear infinite;
+}
+@keyframes card6 { 
+    100% {
+        transform: translate(-120%, 0); 
+    }
+}
+.card7 {
+    animation: card7 2.5s linear infinite;
+}
+@keyframes card7 { 
+    100% {
+        transform: translate(120%, -120%); 
+    }
+}
+.card8 {
+    animation: card8 2s linear infinite;
+}
+@keyframes card8 { 
+    100% {
+        transform: translate(0, -120%); 
+    }
+}
+.card9 {
+    animation: card9 1.5s linear infinite;
+}
+@keyframes card9 { 
+    100% {
+        transform: translate(-120%, -120%); 
+    }
+}

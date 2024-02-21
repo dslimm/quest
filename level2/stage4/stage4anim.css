@@ -1,0 +1,96 @@
+.card1 {
+    animation: card1 1s linear infinite;
+}
+@keyframes card1 { 
+    100% {
+        transform: translate(180%, 0); 
+    } 
+}
+.card2 {
+    animation: card2 1s linear infinite;
+}
+@keyframes card2 { 
+    100% {
+        transform: translate(0, 180%); 
+    } 
+}
+.card3 {
+    animation: card3 1.5s linear infinite;
+}
+@keyframes card3 { 
+    100% {
+        transform: translate(-180%, 0); 
+    } 
+}
+.card4 {
+    animation: card4 2s linear infinite;
+}
+@keyframes card4 { 
+    100% {
+        transform: translate(180%, 180%); 
+    } 
+}
+.card5 {
+    animation: card5 1.5s linear infinite;
+}
+@keyframes card5 { 
+    100% {
+        transform: translate(120%, 0); 
+    } 
+}
+.card6 {
+    animation: card6 1.5s linear infinite;
+}
+@keyframes card6 { 
+    100% {
+        transform: translate(-180%, 180%); 
+    } 
+}
+.card7 {
+    animation: card7 1s linear infinite;
+}
+@keyframes card7 { 
+    100% {
+        transform: translate(0, -180%); 
+    } 
+}
+.card8 {
+    animation: card8 1s linear infinite;
+}
+@keyframes card8 { 
+    100% {
+        transform: translate(-120%, 0); 
+    } 
+}
+.card9 {
+    animation: card9 1.5s linear infinite;
+}
+@keyframes card9 { 
+    100% {
+        transform: translate(0, -180%); 
+    } 
+}
+.card10 {
+    animation: card10 1s linear infinite;
+}
+@keyframes card10 { 
+    100% {
+        transform: translate(180%, 0); 
+    } 
+}
+.card11 {
+    animation: card11 2s linear infinite;
+}
+@keyframes card11 { 
+    100% {
+        transform: translate(0, -180%); 
+    } 
+}
+.card12 {
+    animation: card12 1.5s linear infinite;
+}
+@keyframes card12 { 
+    100% {
+        transform: translate(-180%, 0); 
+    } 
+}

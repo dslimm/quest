@@ -1,0 +1,141 @@
+@media (max-width: 768px) {
+    body {
+        margin: auto;
+    }
+    .container {
+        width: 420px;
+        height: 420px;
+    }
+    .cards {
+        width: 140px;
+        height: 140px;
+    }
+    .nocard {
+	width: 320px;
+	height: 100px;
+	border: 8px solid #ddd;
+	}
+    .inp1 {
+        width: 310px;
+        height: 40px;
+        font-size: 0.9em;
+    }
+    .cards-style2 {
+        width: 105px;
+        height: 105px;
+    }
+    .cards-style3 {
+        width: 70px;
+        height: 70px;
+    }
+    .cards-style4 {
+        width: 45px;
+        height: 45px;
+    }
+    .cards-style5 {
+        width: 210px;
+        height: 210px;
+    }
+    h1 {
+        font-size: 2.2em;
+    }
+    h3 {
+        font-size: 1.3em;
+    }
+}
+@media (max-width: 480px) {
+    body {
+        margin: auto;
+        overflow-x: hidden;
+    }
+    .container {
+        width: 345px;
+        height: 345px;
+    }
+    .cards {
+        width: 115px;
+        height: 115px;
+    }
+    .nocard {
+	    width: 250px;
+	    height: 80px;
+        border: 6px solid #ddd;
+        border-radius: 25px;
+	}
+    .inp1 {
+        width: 239px;
+        height: 30px;
+        font-size: 0.8em;
+	    margin-top: 18px;
+    }
+    .cards-style2 {
+        width: 90px;
+        height: 90px;
+    }
+    .cards-style3 {
+        width: 65px;
+        height: 65px;
+    }
+    .cards-style4 {
+        width: 40px;
+        height: 40px;
+    }
+    .cards-style5 {
+        width: 160px;
+        height: 160px;
+    }
+    h1 {
+        font-size: 2em;
+    }
+    h3 {
+        font-size: 1em;
+    }
+}
+@media (max-width: 320px) {
+    body {
+        margin: auto;
+        overflow-x: hidden;
+    }
+    .container {
+        width: 270px;
+        height: 270px;
+    }
+    .cards {
+        width: 90px;
+        height: 90px;
+    }
+    .nocard {
+	    width: 180px;
+	    height: 60px;
+        border: 6px solid #ddd;
+        border-radius: 20px;
+}
+    .inp1 {
+        width: 169px;
+        height: 25px;
+        font-size: 0.7em;
+	    margin-top: 11px;
+    }
+    .cards-style2 {
+        width: 70px;
+        height: 70px;
+    }
+    .cards-style3 {
+        width: 50px;
+        height: 50px;
+    }
+    .cards-style4 {
+        width: 30px;
+        height: 30px;
+    }
+    .cards-style5 {
+        width: 130px;
+        height: 130px;
+    }
+    h1 {
+        font-size: 1.5em;
+    }
+    h3 {
+        font-size: 0.9em;
+    }
+}

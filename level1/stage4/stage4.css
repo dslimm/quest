@@ -1,0 +1,227 @@
+@font-face {
+    font-family: "Rubik Moonrocks";
+    src: url("/quest/fonts/RubikMoonrocks-Regular.ttf");
+  }
+@font-face {
+    font-family: "Rubik Bubbles";
+    src: url("/quest/fonts/RubikBubbles-Regular.ttf");
+  }
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background: 
+           radial-gradient(ellipse farthest-corner at right bottom, #fedb37 0%, #FDB931 8%, #9f7928 30%, #8a6e2f 40%, transparent 80%),
+           radial-gradient(ellipse farthest-corner at left top, #ffffff 0%, #ffffac 8%, #d1b464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
+    background-attachment: fixed;
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        }
+h1 {
+        text-align: center;
+        margin: 30px auto;
+        font-family: 'Rubik Moonrocks', sans-serif;
+        font-weight: 900;
+        font-size: 3em;
+        letter-spacing: 0.1em;
+        word-spacing: 0.5em;
+        text-shadow: 13px 5px 5px rgba(255, 255, 255, 0.8);
+        color: darkred;
+        }
+h3 {
+        text-align: center;
+        font-family: 'Rubik Bubbles', sans-serif;
+        font-size: 1.7em;
+        font-style: italic;
+        background: #fff;
+        }
+.container {
+        background: #fff;
+        background-image: radial-gradient(#ffaf2f 2px, transparent 1px);
+        background-size: 20px 20px;
+        padding: 40px;
+        width: 480px;
+        height: 480px;
+        margin: 50px auto;
+        border-radius: 10px;
+        display: flex;
+        }
+table {
+    margin: auto;
+    border-spacing: 15px;
+}
+tbody {
+    margin: 20px;
+}
+.img1 {
+    width: 120px;
+    height: 120px;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 8px solid darkred;
+    border-radius: 10px;
+}
+.img1:active {
+    opacity: 0;
+}
+.img1:not(:active) {
+    transition: 1s step-end;
+}
+.nocard {
+    width: 350px;
+    height: 100px;
+    border: 8px solid darkred;
+    border-radius: 30px;
+    background: 
+        radial-gradient(ellipse farthest-corner at right bottom, #fedb37 0%, #FDB931 8%, #9f7928 30%, #8a6e2f 40%, transparent 80%),
+        radial-gradient(ellipse farthest-corner at left top, #ffffff 0%, #ffffac 8%, #d1b464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
+    background-size: cover;
+    box-shadow: 0 0 5px 5px rgba(0,0,0,0.3);
+    margin: 50px auto;
+}
+.inp1 {
+    width: 350px;
+    height: 30px;
+    margin: 30px 0;
+    padding: 5px 0;
+    border: none;
+    font-size: 1.5em;
+    text-align: center;
+    outline: none;
+    word-spacing: 0.2em;
+}
+input.inp1 {
+    font-family: 'Rubik Moonrocks', sans-serif;
+}
+.timerCard {
+    width: 300px;
+    height: 30px;
+    margin: 50px auto;
+    text-align: center;
+    font-family: 'Rubik Bubbles', sans-serif;
+    font-size: 1.5em;
+    color: #000;
+}
+.td1 {
+    background: url("/quest/level1/stage4/image/pepper.jpg");
+    background-size: cover;
+    border-radius: 10px;
+}
+.td2 {
+    background: url("/quest/level1/stage4/image/cucumber.jpg");
+    background-size: cover;
+    border-radius: 10px;
+}
+.td3 {
+    background: url("/quest/level1/stage4/image/radish.jpg");
+    background-size: cover;
+    border-radius: 10px;
+}
+.td4 {
+    background: url("/quest/level1/stage4/image/beet.jpg");
+    background-size: cover;
+    border-radius: 10px;
+}
+.td5 {
+    background: url("/quest/level1/stage4/image/potato.jpg");
+    background-size: cover;
+    border-radius: 10px;
+}
+.td6 {
+    background: url("/quest/level1/stage4/image/carrot.jpg");
+    background-size: cover;
+    border-radius: 10px;
+}
+.td7 {
+    background: url("/quest/level1/stage4/image/onion.jpg");
+    background-size: cover;
+    border-radius: 10px;
+}
+.td8 {
+    background: url("/quest/level1/stage4/image/tomato.jpg");
+    background-size: cover;
+    border-radius: 10px;
+}
+.td9 {
+    background: url("/quest/level1/stage4/image/pumpkin.jpg");
+    background-size: cover;
+    border-radius: 10px;
+}
+@media (max-width: 480px) {
+    body {
+        margin: auto;
+    }
+    .container {
+        width: 320px;
+        height: 320px;
+        padding: 10px;
+    }
+    table {
+        border-spacing: 10px;
+    }
+    .img1 {
+        width: 70px;
+        height: 70px;
+        border: 6px solid darkred;
+    }
+    .nocard {
+	    width: 250px;
+	    height: 80px;
+        border: 6px solid darkred;
+        border-radius: 25px;
+	}
+    .inp1 {
+        width: 250px;
+        height: 30px;
+        font-size: 1em;
+	    margin-top: 20px;
+    }
+    h1 {
+        font-size: 2em;
+    }
+    h3 {
+        font-size: 1em;
+    }
+}
+@media (max-width: 320px) {
+    body {
+        margin: auto;
+    }
+    .container {
+        width: 270px;
+        height: 270px;
+        padding: 10px;
+    }
+    table {
+        border-spacing: 8px;
+    }
+    .img1 {
+        width: 60px;
+        height: 60px;
+        border: 4px solid darkred;
+    }
+    .nocard {
+	    width: 180px;
+	    height: 60px;
+        border: 4px solid darkred;
+        border-radius: 15px;
+}
+    .inp1 {
+        width: 180px;
+        height: 25px;
+        font-size: 0.8em;
+        margin-top: 12px;
+        word-spacing: 0.1em;
+    }
+    h1 {
+        font-size: 1.5em;
+    }
+    h3 {
+        font-size: 0.9em;
+    }
+}
