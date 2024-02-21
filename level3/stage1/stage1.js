@@ -24,7 +24,7 @@ for (let i = 0; i < allCards.length; i++) {
                 (tmr.innerText = "Верно! " + min + ":" + sec),
                 (tmr.style.fontSize = "2em");
                 setTimeout(function() {
-                    window.location = "/quest/level2/stage5/stage5.html";
+                    window.location = "/quest/level3/stage2/stage2.html";
                 }, 2000);
             }
                 return false;
