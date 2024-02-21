@@ -14,31 +14,19 @@ const tmr = document.querySelector(".timerCard");
     }, 1000)
 
 const allCards = document.querySelectorAll(".cards");
+let myInput = document.querySelector(".passCard");
 
 for (let i = 0; i < allCards.length; i++) {
-    let noCard = allCards[i];
-    noCard.onclick = function() {
-         myInput.innerText = noCard.innerText;
-        }
+    allCards[i].onclick = function() {
+            myInput.innerText = allCards[i].dataset.text;
+            if (myInput.innerText == "Россия") {
+                clearInterval(timer),
+                (tmr.innerText = "Верно! " + min + ":" + sec),
+                (tmr.style.fontSize = "2em");
+                setTimeout(function() {
+                    window.location = "/quest/level2/stage5/stage5.html";
+                }, 2000);
+            }
+                return false;
     }
-
-const keyCard = document.querySelector(".card9");
-let myInput = document.querySelector(".passCard");
-        keyCard.onclick = function() {
-            myInput.innerText = "";
-            let key = keyCard.innerText;
-            myInput.innerText = myInput.innerText + key;
-                if (myInput.innerText == "Россия") {
-                    clearInterval(timer),
-                    (tmr.innerText = "Верно! " + min + ":" + sec),
-                    (tmr.style.fontSize = "2em");
-                    setTimeout(function() {
-                        window.location = "/quest/level2/stage5/stage5.html";
-                    }, 2000);
-                }
-                    return false;
-        }
-    
-myInput.onclick = function() {
-            myInput.innerText = "";
-        }
+}
