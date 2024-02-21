@@ -14,31 +14,19 @@ const tmr = document.querySelector(".timerCard");
     }, 1000)
 
 const allCards = document.querySelectorAll(".cards");
+let myInput = document.querySelector(".passCard");
 
 for (let i = 0; i < allCards.length; i++) {
-    let noCard = allCards[i];
-    noCard.onclick = function() {
-         myInput.innerText = noCard.innerText;
-        }
+    allCards[i].onclick = function() {
+            myInput.innerText = allCards[i].innerText;
+            if (myInput.innerText == "97.88 °F") {
+                clearInterval(timer),
+                (tmr.innerText = "Верно! " + min + ":" + sec),
+                (tmr.style.fontSize = "2em");
+                setTimeout(function() {
+                    window.location = "/quest/level3/stage4/stage4.html";
+                }, 2000);
+            }
+                return false;
     }
-
-const keyCard = document.querySelector(".card6");
-let myInput = document.querySelector(".passCard");
-        keyCard.onclick = function() {
-            myInput.innerText = "";
-            let key = keyCard.innerText;
-            myInput.innerText = myInput.innerText + key;
-                if (myInput.innerText == "97.88 °F") {
-                    clearInterval(timer),
-                    (tmr.innerText = "Верно! " + min + ":" + sec),
-                    (tmr.style.fontSize = "2em");
-                    setTimeout(function() {
-                        window.location = "/quest/level3/stage4/stage4.html";
-                    }, 2000);
-                }
-                    return false;
-        }
-    
-myInput.onclick = function() {
-            myInput.innerText = "";
-        }
+}
